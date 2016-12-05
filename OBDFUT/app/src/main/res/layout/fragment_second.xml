@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.andapp.futcorp.obdfut.SecondFragment">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView19"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="38dp"
+        android:src="@drawable/rti2_1"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView20"
+        android:layout_alignTop="@+id/imageView19"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="38dp"
+        android:src="@drawable/rti2_2"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView21"
+        android:layout_below="@+id/imageView19"
+        android:layout_alignLeft="@+id/imageView19"
+        android:layout_alignStart="@+id/imageView19"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/rti2_3"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView22"
+        android:layout_alignTop="@+id/imageView21"
+        android:layout_alignRight="@+id/imageView20"
+        android:layout_alignEnd="@+id/imageView20"
+        android:src="@drawable/rti2_4"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView23"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageView21"
+        android:layout_alignStart="@+id/imageView21"
+        android:layout_marginBottom="125dp"
+        android:src="@drawable/rti2_5"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView24"
+        android:layout_alignTop="@+id/imageView23"
+        android:layout_alignRight="@+id/imageView22"
+        android:layout_alignEnd="@+id/imageView22"
+        android:src="@drawable/rti2_6"/>
+</RelativeLayout>
